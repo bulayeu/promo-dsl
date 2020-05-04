@@ -1,0 +1,21 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import Button from './button.tsx';
+
+<Meta title="Components | Button / Default" component={Button} />
+
+# Default
+<Props of={Button} />
+
+## Primary button
+<Preview>
+  <Story name="priamary button">
+    <Button>Primary</Button>
+  </Story>
+</Preview>
+
+## Secondary button
+<Preview>
+  <Story name="secondary button">
+    <Button>Secondary</Button>
+  </Story>
+</Preview>
